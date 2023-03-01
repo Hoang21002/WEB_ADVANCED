@@ -115,6 +115,11 @@ public class DataSeeder : IDataSeeder
             new() {Name ="Blazor", Description = "Blazor", UrlSlug="Tag4"},
             new() {Name ="Deep Learning", Description = "Deep Learning", UrlSlug="Tag5"},
             new() {Name ="Neural Network", Description = "Neural Network", UrlSlug="Tag6"}
+            new() {Name ="FaceBook", Description = "FaceBook", UrlSlug="Tag7"}
+            new() {Name ="Python", Description = "Python", UrlSlug="Tag8"}
+            new() {Name ="HTML", Description = "HTML", UrlSlug="Tag9"}
+            new() {Name ="CSS", Description = "HTML", UrlSlug="Tag10"}
+            new() {Name ="Java", Description = "Java", UrlSlug="Tag11"}
         };
         _dbContext.AddRange(tags);
         _dbContext.SaveChanges();
