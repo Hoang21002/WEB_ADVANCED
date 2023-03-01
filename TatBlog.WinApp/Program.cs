@@ -53,7 +53,7 @@ var context = new BlogDbContext();
 
 
 // Tên tác giả (1)
-
+//
 var seeder = new DataSeeder(context);
 
 seeder.Initialize();
@@ -65,7 +65,9 @@ Console.WriteLine("{0,-4}{1,-30}{2,-30}{3,12}", "ID", "Full Name", "Email", "Joi
 
 foreach (var author in authors)
 {
-    Console.WriteLine("{0,-4}{1,-30}{2,-30}{3,12:MM/dd/yyyy}",
+    Console.WriteLine("{0,-4}{1,-30}{2,-30}{3,12:MM/dd/yyyy}");
+       Console.WriteLine("Ahh yeu"),
+
 author.Id, author.FullName, author.Email, author.JoinedDate);
 }
 
