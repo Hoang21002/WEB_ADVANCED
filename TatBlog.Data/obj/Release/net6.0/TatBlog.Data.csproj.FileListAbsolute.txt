@@ -1,0 +1,15 @@
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\bin\Release\net6.0\TatBlog.Data.deps.json
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\bin\Release\net6.0\TatBlog.Data.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\bin\Release\net6.0\TatBlog.Data.pdb
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\bin\Release\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\bin\Release\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.csproj.AssemblyReference.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.AssemblyInfoInputs.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.AssemblyInfo.cs
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.csproj.CoreCompileInputs.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.csproj.CopyComplete
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\refint\TatBlog.Data.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\TatBlog.Data.pdb
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Data\obj\Release\net6.0\ref\TatBlog.Data.dll

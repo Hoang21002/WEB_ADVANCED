@@ -1,0 +1,24 @@
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.deps.json
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.AssemblyReference.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfoInputs.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfo.cs
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.deps.json
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.dll
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.pdb
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.AssemblyReference.cache
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfoInputs.cache
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfo.cs
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
+C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
