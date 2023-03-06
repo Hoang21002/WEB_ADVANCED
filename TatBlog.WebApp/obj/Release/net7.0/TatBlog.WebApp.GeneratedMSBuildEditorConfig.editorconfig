@@ -14,3 +14,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/PhatTrienUngDungWebNC/WEB_ADVANCED/TatBlog.WebApp/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhatTrienUngDungWebNC/WEB_ADVANCED/TatBlog.WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

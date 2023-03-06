@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TatBlog.WebApp",
+    "\\TatBlog.WebApp\\Views",
+    "\\TatBlog.WebApp\\Views\\Shared"
   ],
-  "SelectedNode": "\\TipsAndTricks.sln",
+  "SelectedNode": "\\TatBlog.WebApp\\Views\\Shared\\_Header.cshtml",
   "PreviewInSolutionExplorer": false
 }
