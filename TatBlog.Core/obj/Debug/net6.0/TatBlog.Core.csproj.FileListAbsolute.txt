@@ -22,3 +22,15 @@ C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\o
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.deps.json
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.AssemblyReference.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfoInputs.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfo.cs
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
