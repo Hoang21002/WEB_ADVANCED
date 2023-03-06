@@ -34,3 +34,15 @@ D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
 D:\WebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.deps.json
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.AssemblyReference.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfoInputs.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.AssemblyInfo.cs
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\refint\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Core\obj\Debug\net6.0\ref\TatBlog.Core.dll
