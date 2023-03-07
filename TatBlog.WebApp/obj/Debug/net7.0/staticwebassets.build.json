@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GTxF86uedGWk6UTBYZxsacfEdQTeEQ/UytOGp2fg+88=",
+  "Hash": "rJ+dIeUyUW7VmhOwlR7WN7G2Kws4TIABMuy42gM7bK8=",
   "Source": "TatBlog.WebApp",
   "BasePath": "_content/TatBlog.WebApp",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\images\\bg.jpg"
     },
     {
-      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_1.png",
+      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_1.jpg",
       "SourceId": "TatBlog.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\",
       "BasePath": "_content/TatBlog.WebApp",
-      "RelativePath": "images/image_1.png",
+      "RelativePath": "images/image_1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image_1.png"
+      "OriginalItemSpec": "wwwroot\\images\\image_1.jpg"
     },
     {
       "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_10.jpg",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\images\\image_10.jpg"
     },
     {
-      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_11.jpg",
+      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_11.png",
       "SourceId": "TatBlog.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\",
       "BasePath": "_content/TatBlog.WebApp",
-      "RelativePath": "images/image_11.jpg",
+      "RelativePath": "images/image_11.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\image_11.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\image_11.png"
     },
     {
       "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\images\\image_2.jpg",

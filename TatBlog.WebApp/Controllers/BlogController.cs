@@ -1,14 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
+using TatBlog.Core.DTO;
+using TatBlog.Services.Blogs;
 
 namespace TatBlog.WebApp.Controllers
 {
     public class BlogController : Controller
     {
-        public IActionResult Index() 
+        private readonly IBlogRepository _blogRepository;
+        public BlogController(IBlogRepository blogRepository) 
         { 
-            ViewBag.CurrentTime = DateTime.Now.ToString("HH:mm:ss");
-            return View();
+            _blogRepository = blogRepository;
+        }
+        /*Action nay xu ly HTTP request den trang chu cua ung dung web
+            hoac tim kiem bai viet theo tu khoa*/
+
+        public async Task<IActionResult> Index(
+            [FromQuery(Name = "p")] int pageNumber = 1,
+            [FromQuery(Name = "ps")] int pageSize = 10) 
+        {
+            /*Tao doi tuong chua cac dieu kien truy van*/
+            var postQuery = new PostQuery()
+            {
+                /*Chi lay nhung bai viet co trang thai Published*/
+                PublishedOnly = true,
+            };
+            var postsList = await _blogRepository
+                .GetPagedPostsAsync(postQuery, pageNumber, pageSize);
+
+
+            ViewBag.PostQuery = postQuery;
+            return View(postsList);
         }
 
         public IActionResult About()
