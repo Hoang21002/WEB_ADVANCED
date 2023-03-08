@@ -3,8 +3,9 @@
     "",
     "\\TatBlog.WebApp",
     "\\TatBlog.WebApp\\Views",
-    "\\TatBlog.WebApp\\Views\\Shared"
+    "\\TatBlog.WebApp\\Views\\Shared",
+    "\\TatBlog.WinApp"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Views\\Shared\\_Header.cshtml",
+  "SelectedNode": "\\TatBlog.WinApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

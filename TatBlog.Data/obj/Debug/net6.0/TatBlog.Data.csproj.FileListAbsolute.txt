@@ -51,3 +51,10 @@ D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\refint\TatBlog.Data.dll
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.pdb
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\ref\TatBlog.Data.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.deps.json
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\bin\Debug\net6.0\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\TatBlog.Data.csproj.CopyComplete
+D:\WebNC\WEB_ADVANCED\TatBlog.Data\obj\Debug\net6.0\ref\TatBlog.Data.dll
