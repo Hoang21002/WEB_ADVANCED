@@ -6,6 +6,6 @@
     "\\TatBlog.WebApp\\Views\\Shared",
     "\\TatBlog.WinApp"
   ],
-  "SelectedNode": "\\TatBlog.WinApp\\Program.cs",
+  "SelectedNode": "\\TatBlog.WebApp\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
