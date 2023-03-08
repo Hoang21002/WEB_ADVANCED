@@ -50,6 +50,22 @@ var app = builder.Build();
 
     /*Dinh nghia route template, route constraint cho cac endpoints
         ket hop voi cac action trong cac controller*/
+
+    app.MapControllerRoute(
+    name: "posts-by-category",
+    pattern: "blog/category/{slug}",
+    defaults: new { controller = "Blog", action = "Category" });
+
+    app.MapControllerRoute(
+    name: "posts-by-tag",
+    pattern: "blog/tag/{slug}",
+    defaults: new { controller = "Blog", action = "Tag"});
+
+    app.MapControllerRoute(
+    name: "single-post",
+    pattern: "blog/post/{year:int}/{month:int}/{day:int}/{slug}",
+    defaults: new { controller = "Blog", action = "Post"});
+
     app.MapControllerRoute(
         name: "default",
         pattern: "{controller=Blog}/{action=Index}/{id?}");
@@ -60,6 +76,7 @@ using (var scope = app.Services.CreateScope())
     var seeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
     seeder.Initialize();
 }
+
 
 /*app.MapGet("/", () => "Hello World!");*/
 
