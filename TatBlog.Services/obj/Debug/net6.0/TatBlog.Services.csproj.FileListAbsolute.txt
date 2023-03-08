@@ -32,3 +32,37 @@ C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Servic
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
 C:\Users\Doan Dinh Hoang\Desktop\2011384_Lab1_WebNC\TipsAndTricks\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.deps.json
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.AssemblyReference.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfoInputs.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfo.cs
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CoreCompileInputs.cache
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CopyComplete
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
+D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.deps.json
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.AssemblyReference.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfoInputs.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfo.cs
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CoreCompileInputs.cache
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CopyComplete
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll

@@ -3,8 +3,8 @@ using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.WinApp;
 
+/*var context = new BlogDbContext();*/
 var context = new BlogDbContext();
-
 
 //Tên và chủ đề (2)
 //var posts = context.Posts
