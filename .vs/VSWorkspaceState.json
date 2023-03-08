@@ -3,9 +3,10 @@
     "",
     "\\TatBlog.WebApp",
     "\\TatBlog.WebApp\\Views",
+    "\\TatBlog.WebApp\\Views\\Blog",
     "\\TatBlog.WebApp\\Views\\Shared",
     "\\TatBlog.WinApp"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\appsettings.json",
+  "SelectedNode": "\\TatBlog.WebApp\\Views\\Blog\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
