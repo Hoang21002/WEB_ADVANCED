@@ -15,6 +15,7 @@ namespace TatBlog.WebApp.Controllers
             hoac tim kiem bai viet theo tu khoa*/
 
         public async Task<IActionResult> Index(
+            [FromQuery(Name = "k")] string keyword = null,
             [FromQuery(Name = "p")] int pageNumber = 1,
             [FromQuery(Name = "ps")] int pageSize = 10) 
         {
@@ -23,6 +24,9 @@ namespace TatBlog.WebApp.Controllers
             {
                 /*Chi lay nhung bai viet co trang thai Published*/
                 PublishedOnly = true,
+
+                /*Tim bai viet theo tu khoa*/
+                Keyword = keyword
             };
             var postsList = await _blogRepository
                 .GetPagedPostsAsync(postQuery, pageNumber, pageSize);
