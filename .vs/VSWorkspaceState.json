@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\TatBlog.WebApp",
+    "\\TatBlog.WebApp\\Extensions",
     "\\TatBlog.WebApp\\Views",
     "\\TatBlog.WebApp\\Views\\Blog",
     "\\TatBlog.WebApp\\Views\\Shared",
     "\\TatBlog.WinApp"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Views\\Blog\\Index.cshtml",
+  "SelectedNode": "\\TatBlog.WebApp\\Extensions",
   "PreviewInSolutionExplorer": false
 }

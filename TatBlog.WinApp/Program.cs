@@ -3,6 +3,7 @@ using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.WinApp;
 
+//test push
 /*var context = new BlogDbContext();*/
 var context = new BlogDbContext();
 
