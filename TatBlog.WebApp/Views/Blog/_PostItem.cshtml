@@ -17,26 +17,39 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">
+                    <h5><a style="text-decoration: none; color:black" 
+                           <a style="text-decoration: none;"
+                           asp-controller="Blog"
+                           asp-action="Title"
+                           asp-route-title="@Model.Title"
+                           class="card-title">
                         @Model.Title
+                        </a>
                     </h5>
                     <p class="card-text">
                         <small class="text-muted">
                             Tác giả:
 
                         </small>
-                        <span class="text-primary">
-                            @Model.Author.FullName
-
-                        </span>
+                        <a style="text-decoration: none;" 
+                           asp-controller="Blog"
+                           asp-action="Author"
+                           asp-route-name="@Model.Author.FullName"
+                           class="text-primary">
+                            @Model.Author.FullName                                                      
+                        </a>
                         <small class="text-muted">
                             Chủ đề:
 
                         </small>
-                        <span class="text-primary">
+                        <a style="text-decoration: none; "
+                           asp-controller="Blog"
+                           asp-action="Category"
+                           asp-route-name="@Model.Category.Name"
+                            class="text-primary">
                             @Model.Category.Name
 
-                        </span>
+                        </a>
                     </p>
                     <p class="card-text">
                         @Html.Raw(Model.ShortDescription)
@@ -50,7 +63,7 @@
                             asp-route-year="@Model.PostedDate.Year"
                             asp-route-month="@Model.PostedDate.Month"
                             asp-route-day="@Model.PostedDate.Day"
-                            asp-route-slug="@Model.UrlSlug"
+                            asp-route-title="@Model.Title"
                             class="btn btn-primary"
                             title="@Model.Title">
                             Xem chi tiết
