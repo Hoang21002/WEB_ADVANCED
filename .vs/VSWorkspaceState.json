@@ -8,6 +8,10 @@
     "\\TatBlog.WebApp\\Views\\Shared",
     "\\TatBlog.WinApp"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\TatBlog.WebApp\\Extensions\\RouteExtensions.cs",
+=======
+  "SelectedNode": "\\TatBlog.WebApp\\Extensions",
+>>>>>>> 5d3b69bbbc2163965719e78a1483d04915d1b520
   "PreviewInSolutionExplorer": false
 }
