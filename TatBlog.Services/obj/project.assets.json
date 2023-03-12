@@ -3327,7 +3327,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\dinhh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3335,11 +3335,11 @@
       "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
       "projectName": "TatBlog.Services",
       "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
       "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

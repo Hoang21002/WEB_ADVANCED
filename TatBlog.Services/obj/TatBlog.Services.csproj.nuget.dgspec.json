@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
         "projectName": "TatBlog.Core",
         "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
         "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,11 +65,11 @@
         "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
         "projectName": "TatBlog.Data",
         "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
         "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,11 +130,11 @@
         "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
         "projectName": "TatBlog.Services",
         "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
         "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

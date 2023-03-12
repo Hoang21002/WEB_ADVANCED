@@ -1,17 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TatBlog.WebApp",
-    "\\TatBlog.WebApp\\Extensions",
-    "\\TatBlog.WebApp\\Views",
-    "\\TatBlog.WebApp\\Views\\Blog",
-    "\\TatBlog.WebApp\\Views\\Shared",
-    "\\TatBlog.WinApp"
+    "\\TatBlog.WebApp"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\TatBlog.WebApp\\Extensions\\RouteExtensions.cs",
-=======
-  "SelectedNode": "\\TatBlog.WebApp\\Extensions",
->>>>>>> 5d3b69bbbc2163965719e78a1483d04915d1b520
+  "SelectedNode": "\\TatBlog.WebApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
