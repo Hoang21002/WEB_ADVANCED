@@ -3239,19 +3239,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinhh\\.nuget\\packages\\": {}
+    "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
+      "projectUniqueName": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
       "projectName": "TatBlog.Data",
-      "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
-      "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
-      "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\obj\\",
+      "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj",
+      "packagesPath": "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\",
+      "outputPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Doan Dinh Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3265,8 +3265,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
             }
           }
         }
@@ -3302,7 +3302,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

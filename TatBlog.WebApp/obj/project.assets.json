@@ -10696,19 +10696,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dinhh\\.nuget\\packages\\": {}
+    "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "projectUniqueName": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
       "projectName": "TatBlog.WebApp",
-      "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
-      "packagesPath": "C:\\Users\\dinhh\\.nuget\\packages\\",
-      "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\obj\\",
+      "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.WebApp\\TatBlog.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\",
+      "outputPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dinhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Doan Dinh Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10722,14 +10722,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj"
             },
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj"
             }
           }
         }
@@ -10774,7 +10774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
