@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MapsterMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using TatBlog.Core.DTO;
@@ -7,7 +8,48 @@ using TatBlog.WebApp.Areas.Admin.Models;
 
 namespace TatBlog.WebApp.Areas.Admin.Controllers
 {
-    public class PostsController
+    public class PostsController : Controller
+    {
+        private readonly IBlogRepository _blogRepository;
+        private readonly IMapper _mapper;
+
+        public PostsController(
+            IBlogRepository blogRepository,
+            IMapper mapper )
+        {
+            _blogRepository = blogRepository;
+            _mapper = mapper;
+        }
+
+        public async Task<IActionResult> Index(PostFilterModel model)
+        {
+            var postQuery = _mapper.Map<PostQuery>(model );
+
+            ViewBag.PostsList = await _blogRepository
+                .GetPagedPostsAsync(postQuery,1,10);
+
+            await PopulatePostFilterModelAsync(model);
+
+            return View(model);
+        }
+
+        [HttpGet]
+
+        public async Task<IActionResult> Edit(int id=0)
+        {
+            var post = id > 0
+                ? await _blogRepository.GetPostByIdAsync(id, true)
+                : null;
+            var model = post == null
+                ? new PostEditModel()
+                : _mapper.Map<PostEditModel>(post);
+
+            await PopulatePostEditModelAsync(model);
+
+            return View(model);
+        }
+    }
+    /*public class PostsController
     {
         private readonly IBlogRepository _blogRepository;
 
@@ -52,5 +94,5 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
             return View(model);
         }
-    }
+    }*/
 }

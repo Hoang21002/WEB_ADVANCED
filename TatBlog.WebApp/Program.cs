@@ -3,6 +3,8 @@ using System.Net;
 using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
+using TatBlog.WebApp.Extensions;
+using TatBlog.WebApp.Mapsters;
 
 var builder = WebApplication.CreateBuilder(args);
 {
@@ -92,6 +94,16 @@ using (var scope = app.Services.CreateScope())
     var seeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
     seeder.Initialize();
 }
+
+var builder = WebApplication.CreateBuilder(args);
+{
+    builder
+        .ConfigureMVC()
+        .ConfigureServices()
+        .ConfigureMapster();
+}
+
+
 
 
 /*app.MapGet("/", () => "Hello World!");*/
