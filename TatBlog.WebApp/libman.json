@@ -163,6 +163,15 @@
         "fonts/fontawesome-webfont.woff2",
         "fonts/FontAwesome.otf"
       ]
+    },
+    {
+      "library": "speakingurl@14.0.1",
+      "destination": "wwwroot/lib/speakingurl/",
+      "files": [
+        "LICENSE",
+        "speakingurl.min.js",
+        "README.md"
+      ]
     }
   ]
 }

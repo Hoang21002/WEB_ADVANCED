@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using TatBlog.Core.DTO;
+using TatBlog.Core.Entities;
 using TatBlog.Services.Blogs;
 using TatBlog.WebApp.Areas.Admin.Models;
 
@@ -48,51 +49,95 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
             return View(model);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(PostEditModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                await PopulatePostEditModelAsync(model);
+                return View(model);
+            }
+            var post = model.Id > 0
+                ? await _blogRepository.GetPostByIdAsync(model.Id)
+                :null;
+            if (post == null)
+            {
+                post = _mapper.Map<Post>(model);
+                post.Id = 0;
+                post.PostedDate = DateTime.Now;
+            }
+            else
+            {
+                _mapper.Map(model, post);
+
+                post.Category = null;
+                post.ModifiedDate = DateTime.Now;
+            }
+
+            await _blogRepository.CreateOrUpdatePostAsync(
+                post, model.GetSelectedTags());
+
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> VerifyPostSlug(
+            int id, string urlSlug)
+        {
+            var slugExisted = await _blogRepository
+                .IsPostSlugExistedAsync(id, urlSlug);
+
+            return slugExisted
+                ? Json($"Slug '{urlSlug}' đã được sử dụng")
+                : Json(true);
+        }
     }
-    /*public class PostsController
+    /*public class postscontroller
     {
-        private readonly IBlogRepository _blogRepository;
+        private readonly iblogrepository _blogrepository;
 
-        public PostsController(IBlogRepository blogRepository)
+        public postscontroller(iblogrepository blogrepository)
         {
-            _blogRepository = blogRepository;   
+            _blogrepository = blogrepository;   
         }
 
-        private async Task PopulatePostFilterModelAsync(PostFilterModel model)
+        private async task populatepostfiltermodelasync(postfiltermodel model)
         {
-            var authors = await _blogRepository.GetAuthorsAsync();
-            var categories = await _blogRepository.GetCategoriesAsync();
+            var authors = await _blogrepository.getauthorsasync();
+            var categories = await _blogrepository.getcategoriesasync();
 
-            model.AuthorList = authors.Select(a => new SelectListItem()
+            model.authorlist = authors.select(a => new selectlistitem()
             {
-                Text = a.FullName,
-                Value = a.Id.ToString()
+                text = a.fullname,
+                value = a.id.tostring()
             });
 
-            model.CategoryList = categories.Select(c => new SelectListItem()
+            model.categorylist = categories.select(c => new selectlistitem()
             {
-                Text = c.Name,
-                Value = c.Id.ToString()
+                text = c.name,
+                value = c.id.tostring()
             });
         }
 
-        public async Task<IActionResult> Index(PostFilterModel model)
+        public async task<iactionresult> index(postfiltermodel model)
         {
-            var postQuery = new PostQuery()
+            var postquery = new postquery()
             {
-                Keyword = model.Keyword,
-                CategoryId = (int)model.CategoryId,
-                AuthorId = (int)model.AuthorId,
-                Year = (int)model.Year,
-                Month = (int)model.Month
+                keyword = model.keyword,
+                categoryid = (int)model.categoryid,
+                authorid = (int)model.authorid,
+                year = (int)model.year,
+                month = (int)model.month
             };
             
-            ViewBag.PostsList = await _blogRepository
-                .GetPagedPostsAsync(postQuery, 1, 10);
+            viewbag.postslist = await _blogrepository
+                .getpagedpostsasync(postquery, 1, 10);
 
-            await PopulatePostFilterModelAsync(model);
+            await populatepostfiltermodelasync(model);
 
-            return View(model);
+            return view(model);
         }
     }*/
 }
