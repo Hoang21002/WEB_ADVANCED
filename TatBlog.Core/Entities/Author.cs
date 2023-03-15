@@ -16,7 +16,6 @@ public class Author : IEntity
     public DateTime JoinedDate { get; set; }
     public string Email { get; set; }
     public string Notes { get; set; }
-    public int PostCount { get; set; }
     public IList<Post> Posts { get; set; }
 
 }

@@ -37,18 +37,15 @@ public static class RouteExtensions
         pattern: "blog/category/{name}",
         defaults: new { controller = "Blog", action = "Category" });
 
-        endpoints.MapControllerRoute(
+/*        endpoints.MapControllerRoute(
         name: "single-post",
         pattern: "blog/post/{year:int}/{month:int}/{day:int}/{slug}",
         defaults: new { controller = "Blog", action = "Post" });
-
+*/
         endpoints.MapControllerRoute(
         name: "admin-area",
         pattern: "admin/{controller=Dashboard}/{action=Index}/{id?}",
-        defaults: new { area = "Admin" });
-
-
-
+        defaults: new { area ="Admin"});
 
         endpoints.MapControllerRoute(
             name: "default",
