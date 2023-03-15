@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PhatTrienUngDungWebNC/WEB_ADVANCED/TatBlog.WebApp/nlog.config]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PhatTrienUngDungWebNC/WEB_ADVANCED/TatBlog.WebApp/Areas/Admin/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

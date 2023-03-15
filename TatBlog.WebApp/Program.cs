@@ -5,9 +5,17 @@ using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.WebApp.Extensions;
 using TatBlog.WebApp.Mapsters;
+using TatBlog.WebApp.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 {
+    builder
+    .ConfigureMVC()
+    .ConfigureNLog()
+    .ConfigureServices()
+    .ConfigureMapster()
+    .ConfigureFluentValidation();
+
     /*Them cac dich vu duoc yeu cau boi MVC Framework*/
     builder.Services.AddControllersWithViews();
 
@@ -94,16 +102,6 @@ using (var scope = app.Services.CreateScope())
     var seeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
     seeder.Initialize();
 }
-
-var builder = WebApplication.CreateBuilder(args);
-{
-    builder
-        .ConfigureMVC()
-        .ConfigureServices()
-        .ConfigureMapster();
-}
-
-
 
 
 /*app.MapGet("/", () => "Hello World!");*/
