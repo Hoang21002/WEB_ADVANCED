@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h4twjUbksPaHL6aHyZL2kzYvZzBXRw2/A7j1SFEe9YMxZEHivPBf7hLByDbLR1kg409BbL6/TGOptlSgQuugjw==",
+  "dgSpecHash": "5EbKmOIbq3kJsPBfdFZA//I3Y0QG/LjU/lIoljdMduodXHx3TpjR1QACoqB0ZRXt6XrV54R7B+FV/vz5PyPhbA==",
   "success": true,
   "projectFilePath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WinApp\\TatBlog.WinApp.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\dinhh\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\dinhh\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\dinhh\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\dinhh\\.nuget\\packages\\sluggenerator\\2.0.2\\sluggenerator.2.0.2.nupkg.sha512",
     "C:\\Users\\dinhh\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\dinhh\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\dinhh\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

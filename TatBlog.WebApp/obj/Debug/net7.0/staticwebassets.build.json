@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NMIsvnXz4rMBH0qPRv+jME5h1VUEpI7U/LLV4k52uuA=",
+  "Hash": "cJV5KpCV5lLoy8n5WxGOSZCjrSXv39FDV3EdvU5lI3Q=",
   "Source": "TatBlog.WebApp",
   "BasePath": "_content/TatBlog.WebApp",
   "Mode": "Default",
@@ -2531,6 +2531,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\README.md"
+    },
+    {
+      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\LICENSE",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\LICENSE"
+    },
+    {
+      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\README.md",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\README.md"
+    },
+    {
+      "Identity": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\speakingurl.min.js",
+      "SourceId": "TatBlog.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.WebApp\\wwwroot\\",
+      "BasePath": "_content/TatBlog.WebApp",
+      "RelativePath": "lib/speakingurl/speakingurl.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\speakingurl\\speakingurl.min.js"
     }
   ]
 }

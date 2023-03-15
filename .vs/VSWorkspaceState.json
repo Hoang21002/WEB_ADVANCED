@@ -7,6 +7,6 @@
     "\\TatBlog.WebApp\\Areas\\Admin\\Controllers",
     "\\TatBlog.WebApp\\Extensions"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Areas\\Admin\\Controllers\\PostsController.cs",
+  "SelectedNode": "\\TatBlog.WebApp\\Extensions\\WebApplicationExtensions.cs",
   "PreviewInSolutionExplorer": false
 }

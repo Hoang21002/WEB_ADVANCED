@@ -560,3 +560,13 @@ D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\refint\TatBlog.WebApp.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.pdb
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.genruntimeconfig.cache
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\ref\TatBlog.WebApp.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\Mapster.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\Mapster.DependencyInjection.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\SlugGenerator.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.MvcApplicationPartsAssemblyInfo.cs

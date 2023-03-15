@@ -77,3 +77,4 @@ D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WinApp\obj\Debug\net6.0\refint\Tat
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.pdb
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WinApp\obj\Debug\net6.0\TatBlog.WinApp.genruntimeconfig.cache
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WinApp\obj\Debug\net6.0\ref\TatBlog.WinApp.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WinApp\bin\Debug\net6.0\SlugGenerator.dll

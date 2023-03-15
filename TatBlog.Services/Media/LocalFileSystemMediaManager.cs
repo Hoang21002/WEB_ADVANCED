@@ -28,12 +28,15 @@ namespace TatBlog.Services.Media
             {
                 if (!buffer.CanRead || !buffer.CanSeek || buffer.Length == 0)
                     return null;
+
                 var fileExt = Path.GetExtension(originalFileName).ToLower();
+
                 var returnedFilePath = CreateFilePath(
-                    fileExt, contentType.ToLower() );
+                    fileExt, contentType.ToLower());
+
                 var fullPath = Path.GetFullPath(
                     Path.Combine(Environment.CurrentDirectory,
-                        "wwwroot", returnedFilePath));
+                        "wwwroot", (string)returnedFilePath));
                 buffer.Position = 0;
 
                 await using var fileStream = new FileStream(
@@ -41,7 +44,7 @@ namespace TatBlog.Services.Media
 
                 await buffer.CopyToAsync(fileStream, cancellationToken);
 
-                return returnedFilePath;
+                return (string)returnedFilePath;
             }
             catch (Exception ex)
             {

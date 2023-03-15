@@ -17,7 +17,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         private readonly IBlogRepository _blogRepository;
         private readonly IMediaManager _mediaManager;
         private readonly IMapper _mapper;
-        
+        private string? newImagePath;
 
         public PostsController(
             ILogger<PostsController> logger,
@@ -51,6 +51,24 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             return View(model);
         }
 
+        private async Task PopulatePostFilterModelAsync(PostFilterModel model)
+        {
+            var authors = await _blogRepository.GetAuthorsAsync();
+            var categories = await _blogRepository.GetCategoriesAsync();
+
+            model.AuthorList = authors.Select(a => new SelectListItem()
+            {
+                Text = a.FullName,
+                Value = a.Id.ToString()
+            });
+
+            model.CategoryList = categories.Select(c => new SelectListItem()
+            {
+                Text = c.Name,
+                Value = c.Id.ToString()
+            });
+        }
+
         [HttpGet]
 
         public async Task<IActionResult> Edit(int id=0)
@@ -67,10 +85,16 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             return View(model);
         }
 
+        private Task PopulatePostEditModelAsync(PostEditModel model)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpPost]
-        public async Task<IActionResult> Edit(
-            IValidator<PostEditModel> postValidator, 
-            PostEditModel model)
+        public async Task<IActionResult> Edit(PostEditModel model)
+/*            Edit(
+            IValidator<PostEditModel> postValidator,
+            PostEditModel model)*/
         {
             if (!ModelState.IsValid)
             {
