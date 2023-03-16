@@ -61,40 +61,42 @@ var app = builder.Build();
     /*Dinh nghia route template, route constraint cho cac endpoints
         ket hop voi cac action trong cac controller*/
 
-    app.MapControllerRoute(
-    name: "posts-by-category",
-    pattern: "blog/category/{slug}",
-    defaults: new { controller = "Blog", action = "Category" });
+    //app.MapControllerRoute(
+    //name: "posts-by-category",
+    //pattern: "blog/category/{slug}",
+    //defaults: new { controller = "Blog", action = "Category" });
 
-    app.MapControllerRoute(
-    name: "posts-by-tag",
-    pattern: "blog/tag/{slug}",
-    defaults: new { controller = "Blog", action = "Tag"});
+    //app.MapControllerRoute(
+    //name: "posts-by-tag",
+    //pattern: "blog/tag/{slug}",
+    //defaults: new { controller = "Blog", action = "Tag" });
 
-    app.MapControllerRoute(
-    name: "single-post",
-    pattern: "blog/post/{year:int}/{month:int}/{day:int}/{title}",
-    defaults: new { controller = "Blog", action = "Post" });
+    //app.MapControllerRoute(
+    //name: "single-post",
+    //pattern: "blog/post/{year:int}/{month:int}/{day:int}/{title}",
+    //defaults: new { controller = "Blog", action = "Post" });
 
-    app.MapControllerRoute(
-    name: "single-post",
-    pattern: "blog/author/{name}",
-    defaults: new { controller = "Blog", action = "Author"});
+    //app.MapControllerRoute(
+    //name: "single-post",
+    //pattern: "blog/author/{name}",
+    //defaults: new { controller = "Blog", action = "Author" });
 
-    app.MapControllerRoute(
-    name: "single-title",
-    pattern: "blog/title/{title}",
-    defaults: new { controller = "Blog", action = "Title" });
+    //app.MapControllerRoute(
+    //name: "single-title",
+    //pattern: "blog/title/{title}",
+    //defaults: new { controller = "Blog", action = "Title" });
 
-    app.MapControllerRoute(
-    name: "single-category-name",
-    pattern: "blog/category/{name}",
-    defaults: new { controller = "Blog", action = "Category" });
+    //app.MapControllerRoute(
+    //name: "single-category-name",
+    //pattern: "blog/category/{name}",
+    //defaults: new { controller = "Blog", action = "Category" });
 
 
-    app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Blog}/{action=Index}/{id?}");
+    //app.MapControllerRoute(
+    //    name: "default",
+    //    pattern: "{controller=Blog}/{action=Index}/{id?}");
+
+    app.UseBlogRoutes();
 }
 
 using (var scope = app.Services.CreateScope())

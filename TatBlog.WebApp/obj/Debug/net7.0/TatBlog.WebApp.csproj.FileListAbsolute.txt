@@ -570,3 +570,13 @@ D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Exten
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\SlugGenerator.dll
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\Mapster.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\Mapster.DependencyInjection.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\bin\Debug\net7.0\SlugGenerator.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApp\obj\Debug\net7.0\TatBlog.WebApp.MvcApplicationPartsAssemblyInfo.cs

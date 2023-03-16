@@ -17,7 +17,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         private readonly IBlogRepository _blogRepository;
         private readonly IMediaManager _mediaManager;
         private readonly IMapper _mapper;
-        private string? newImagePath;
+        
 
         public PostsController(
             ILogger<PostsController> logger,
@@ -85,9 +85,22 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             return View(model);
         }
 
-        private Task PopulatePostEditModelAsync(PostEditModel model)
+        private async Task PopulatePostEditModelAsync(PostEditModel model)
         {
-            throw new NotImplementedException();
+            var authors = await _blogRepository.GetAuthorsAsync();
+            var categories = await _blogRepository.GetCategoriesAsync();
+
+            model.AuthorList = authors.Select(a => new SelectListItem()
+            {
+                Text = a.FullName,
+                Value = a.Id.ToString()
+            });
+
+            model.CategoryList = categories.Select(c => new SelectListItem()
+            {
+                Text = c.Name,
+                Value = c.Id.ToString()
+            });
         }
 
         [HttpPost]
@@ -127,18 +140,20 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                     model.ImageFile.OpenReadStream(),
                     model.ImageFile.FileName,
                     model.ImageFile.ContentType);
-            }
+            
             /*Nếu lưu thành công, xóa tập tin ảnh cữ (nếu có)*/
             if (!string.IsNullOrWhiteSpace(newImagePath))
             {
                 await _mediaManager.DeleteFileAsync(post.ImageUrl);
                 post.ImageUrl = newImagePath;
             }
+            }
 
             await _blogRepository.CreateOrUpdatePostAsync(
                 post, model.GetSelectedTags());
 
             return RedirectToAction(nameof(Index));
+            
 
         }
 

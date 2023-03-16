@@ -75,6 +75,8 @@ public static class WebApplicationExtensions
         /* Thêm middlaware để lưu vết người dùng*/
         app.UseMiddleware<UserActivityMiddleware>();
 
+        
+
         return app;
     }
 

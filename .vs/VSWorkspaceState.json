@@ -5,8 +5,10 @@
     "\\TatBlog.WebApp\\Areas",
     "\\TatBlog.WebApp\\Areas\\Admin",
     "\\TatBlog.WebApp\\Areas\\Admin\\Controllers",
-    "\\TatBlog.WebApp\\Extensions"
+    "\\TatBlog.WebApp\\Extensions",
+    "\\TatBlog.WebApp\\Views",
+    "\\TatBlog.WebApp\\Views\\Blog"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Extensions\\WebApplicationExtensions.cs",
+  "SelectedNode": "\\TatBlog.WebApp\\Views\\Blog\\_PostItem.cshtml",
   "PreviewInSolutionExplorer": false
 }

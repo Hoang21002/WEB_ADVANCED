@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace TatBlog.Services.Media
 {
@@ -31,12 +32,11 @@ namespace TatBlog.Services.Media
 
                 var fileExt = Path.GetExtension(originalFileName).ToLower();
 
-                var returnedFilePath = CreateFilePath(
-                    fileExt, contentType.ToLower());
+                var returnedFilePath = CreateFilePath (fileExt, contentType.ToLower());
 
                 var fullPath = Path.GetFullPath(
                     Path.Combine(Environment.CurrentDirectory,
-                        "wwwroot", (string)returnedFilePath));
+                        "wwwroot", returnedFilePath));
                 buffer.Position = 0;
 
                 await using var fileStream = new FileStream(
@@ -44,7 +44,7 @@ namespace TatBlog.Services.Media
 
                 await buffer.CopyToAsync(fileStream, cancellationToken);
 
-                return (string)returnedFilePath;
+                return returnedFilePath;
             }
             catch (Exception ex)
             {
@@ -78,7 +78,7 @@ namespace TatBlog.Services.Media
             }
         }
 
-        private object CreateFilePath(string fileExt, string v)
+        private string CreateFilePath(string fileExt, string contentType = null)
         {
             return string.Format(PicturesFolder,
                 Guid.NewGuid().ToString("N"), fileExt);

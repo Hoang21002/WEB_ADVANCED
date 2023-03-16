@@ -1,6 +1,11 @@
-﻿namespace TatBlog.WebApp.Areas.Admin.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace TatBlog.WebApp.Areas.Admin.Controllers;
+
+public class TagsController : Controller
 {
-    public class TagsController
+    public IActionResult Index()
     {
+        return View();
     }
 }
