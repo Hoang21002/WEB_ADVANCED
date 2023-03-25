@@ -70,7 +70,6 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         }
 
         [HttpGet]
-
         public async Task<IActionResult> Edit(int id=0)
         {
             var post = id > 0
@@ -132,7 +131,6 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
             }
 
             /*Nếu người dùng có upload hình ảnh minh họa cho bài viết*/
-
             if (model.ImageFile?.Length > 0)
             {
                 /*Thì thực hiện việc lưu tập tin vào thư mục uploads*/

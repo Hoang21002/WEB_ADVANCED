@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\TatBlog.WebApp",
-    "\\TatBlog.WebApp\\Areas",
-    "\\TatBlog.WebApp\\Areas\\Admin",
-    "\\TatBlog.WebApp\\Areas\\Admin\\Controllers",
-    "\\TatBlog.WebApp\\Extensions",
-    "\\TatBlog.WebApp\\Views",
-    "\\TatBlog.WebApp\\Views\\Blog"
+    ""
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Views\\Blog\\_PostItem.cshtml",
+  "SelectedNode": "\\TipsAndTricks.sln",
   "PreviewInSolutionExplorer": false
 }
