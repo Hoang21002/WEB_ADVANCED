@@ -587,6 +587,15 @@
           }
         }
       },
+      "SlugGenerator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/SlugGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/SlugGenerator.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1075,6 +1084,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "SlugGenerator": "2.0.2",
           "TatBlog.Core": "1.0.0"
         },
         "compile": {
@@ -1956,6 +1966,22 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SlugGenerator/2.0.2": {
+      "sha512": "YnZfqVSdEaD+Ulif5GihlnrQjhSKpA4iDxC+S8i344w90IkBWjGDqYBRbl4aO47kXIDoFyUvWJWzvWNO6LLhXw==",
+      "type": "package",
+      "path": "sluggenerator/2.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SlugGenerator.dll",
+        "lib/netcoreapp2.0/SlugGenerator.dll",
+        "lib/netstandard2.0/SlugGenerator.dll",
+        "sluggenerator.2.0.2.nupkg.sha512",
+        "sluggenerator.nuspec",
+        "tools/install.ps1"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3327,19 +3353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
+      "projectUniqueName": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
       "projectName": "TatBlog.Services",
-      "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Services\\obj\\",
+      "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Services\\TatBlog.Services.csproj",
+      "packagesPath": "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\",
+      "outputPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Doan Dinh Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3353,11 +3379,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj"
             },
-            "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj": {
-              "projectPath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj"
+            "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj": {
+              "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Data\\TatBlog.Data.csproj"
             }
           }
         }
@@ -3393,7 +3419,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

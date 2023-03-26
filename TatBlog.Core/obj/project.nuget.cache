@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DzFwTWqh5uOIQoMBqJDEpqG8uZ/j3aqdBsEGQD2yFxLbUnUF8B2w6K4NqvAbr/0OWwdy/W+NK1XdXlDwIGQq+g==",
+  "dgSpecHash": "ZLm9DeLNPjhk8eaLVWsdnigwx/5VPaS26ABOqzkUORJh8ajEndUkBWrDgpEQlhl/1pcrhAzCEgDJ8K/XQNM8vw==",
   "success": true,
-  "projectFilePath": "D:\\PhatTrienUngDungWebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
+  "projectFilePath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

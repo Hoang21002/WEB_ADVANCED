@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NLog.Web;
 using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
+using TatBlog.Services.Media;
+using TatBlog.WebApp.Middlewares;
 
 namespace TatBlog.WebApp.Extensions;
 
@@ -11,8 +14,18 @@ public static class WebApplicationExtensions
     public static WebApplicationBuilder ConfigureMVC(
         this WebApplicationBuilder builder)
     {
+
         builder.Services.AddControllersWithViews();
         builder.Services.AddResponseCompression();
+        return builder;
+    }
+
+    public static WebApplicationBuilder ConfigureNLog(
+    this WebApplicationBuilder builder)
+    {
+
+        builder.Logging.ClearProviders();
+        builder.Host.UseNLog();
         return builder;
     }
 
@@ -24,6 +37,7 @@ public static class WebApplicationExtensions
         options.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnection")));
 
+        builder.Services.AddScoped<IMediaManager, LocalFileSystemMediaManager>();
         builder.Services.AddScoped<IBlogRepository, BlogRepository>();
         builder.Services.AddScoped<IDataSeeder, DataSeeder>();
 
@@ -57,6 +71,11 @@ public static class WebApplicationExtensions
         //Them middleware lua chon endpoint phu hop nhat
         //dexuly HTTP request
         app.UseRouting();
+
+        /* Thêm middlaware để lưu vết người dùng*/
+        app.UseMiddleware<UserActivityMiddleware>();
+
+        
 
         return app;
     }
