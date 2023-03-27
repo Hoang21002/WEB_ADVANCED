@@ -56,28 +56,28 @@ var app = builder.Build();
 
     /*Them middleware lua chon endpoint phu hop nhat de 
         xu ly mot HTTP request*/
-    
+
     app.UseRouting();
 
-    
+
 
     /*Dinh nghia route template, route constraint cho cac endpoints
         ket hop voi cac action trong cac controller*/
 
-/*    app.MapControllerRoute(
-    name: "posts-by-category",
-    pattern: "blog/category/{slug}",
-    defaults: new { controller = "Blog", action = "Category" });
+    /*    app.mapcontrollerroute(
+        name: "posts-by-category",
+        pattern: "blog/category/{slug}",
+        defaults: new { controller = "blog", action = "category" });
 
-    app.MapControllerRoute(
-    name: "posts-by-tag",
-    pattern: "blog/tag/{slug}",
-    defaults: new { controller = "Blog", action = "Tag" });
+        app.MapControllerRoute(
+        name: "posts-by-tag",
+        pattern: "blog/tag/{slug}",
+        defaults: new { controller = "Blog", action = "Tag" });
 
-    app.MapControllerRoute(
-    name: "single-post",
-    pattern: "blog/post/{year:int}/{month:int}/{day:int}/{title}",
-    defaults: new { controller = "Blog", action = "Post" });*/
+        app.MapControllerRoute(
+        name: "single-post",
+        pattern: "blog/post/{year:int}/{month:int}/{day:int}/{title}",
+        defaults: new { controller = "Blog", action = "Post" });*/
 
     //app.MapControllerRoute(
     //name: "single-post",
