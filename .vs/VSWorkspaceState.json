@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\TatBlog.WebApp",
-    "\\TatBlog.WebApp\\Controllers"
+    "\\TatBlog.WebApp\\Controllers",
+    "\\TatBlog.WebApp\\Views",
+    "\\TatBlog.WebApp\\Views\\Blog"
   ],
-  "SelectedNode": "\\TatBlog.WebApp\\Controllers\\BlogController.cs",
+  "SelectedNode": "\\TipsAndTricks.sln",
   "PreviewInSolutionExplorer": false
 }

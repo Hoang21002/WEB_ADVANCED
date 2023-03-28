@@ -25,11 +25,11 @@ public interface IBlogRepository
     Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false,
         CancellationToken cancellationToken = default);
 
-    Task<Author> GetAuthorByIdAsync(int authorId);
+    //Task<Author> GetAuthorByIdAsync(int authorId);
 
-    Task<Author> GetAuthorAsync(string slug, CancellationToken cancellationToken = default);
+    //Task<Author> GetAuthorAsync(string slug, CancellationToken cancellationToken = default);
 
-    Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default);
+    //Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default);
 
 
     // Lấy danh sách từ khóa/thẻ và phân trang theo các tham số pagingParams
