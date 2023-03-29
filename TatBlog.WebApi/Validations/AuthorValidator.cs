@@ -21,7 +21,7 @@ public class AuthorValidator : AbstractValidator<AuthorEditModel>
 
         RuleFor(a => a.JoinedDate)
             .GreaterThan(DateTime.MinValue)
-            .WithMessage("Tên tác giả không được để trống");
+            .WithMessage("Ngày tham gia không hợp lệ");
 
         RuleFor(a => a.Email)
             .NotEmpty()

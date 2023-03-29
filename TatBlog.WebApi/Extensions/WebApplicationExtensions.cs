@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NLog.Web;
 using TatBlog.Data.Contexts;
-using TatBlog.Data.Seeders;
-using TatBlog.Services.Blogs;
 using TatBlog.Services.Media;
+using TatBlog.Services.Blogs;
 using TatBlog.Services.Timing;
+using TatBlog.Data.Seeders;
+using NLog.Web;
 
 namespace TatBlog.WebApi.Extensions;
 

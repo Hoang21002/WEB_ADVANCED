@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TatBlog.WebApi
 build_property.RootNamespace = TatBlog.WebApi
-build_property.ProjectDir = D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\
+build_property.ProjectDir = D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi
+build_property.MSBuildProjectDirectory = D:\WebNC\WEB_ADVANCED\TatBlog.WebApi
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PhatTrienUngDungWebNC/WEB_ADVANCED/TatBlog.WebApi/nlog.config]
+[D:/WebNC/WEB_ADVANCED/TatBlog.WebApi/nlog.config]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 

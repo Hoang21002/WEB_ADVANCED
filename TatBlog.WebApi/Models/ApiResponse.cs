@@ -1,6 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿/*using System.ComponentModel.DataAnnotations;
 using System.Net;
+using Mapster.Adapters;
 using TatBlog.WebApi.Models;
+using FluentValidation.Results;*/
+
+using FluentValidation.Results;
+using System.Net;
 
 namespace TatBlog.WebApi.Models;
 

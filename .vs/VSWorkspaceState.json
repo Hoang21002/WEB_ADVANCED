@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\TatBlog.WebApi",
+    "\\TatBlog.WebApi\\Endpoints",
     "\\TatBlog.WebApp",
     "\\TatBlog.WebApp\\Controllers",
     "\\TatBlog.WebApp\\Views",
     "\\TatBlog.WebApp\\Views\\Blog"
   ],
-  "SelectedNode": "\\TipsAndTricks.sln",
+  "SelectedNode": "\\TatBlog.WebApi\\Endpoints\\AuthorEndpoints.cs",
   "PreviewInSolutionExplorer": false
 }
