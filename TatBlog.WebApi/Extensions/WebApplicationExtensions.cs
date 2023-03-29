@@ -3,7 +3,6 @@ using TatBlog.Data.Contexts;
 using TatBlog.Services.Media;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Timing;
-using TatBlog.Data.Seeders;
 using NLog.Web;
 
 namespace TatBlog.WebApi.Extensions;
@@ -22,7 +21,7 @@ public static class WebApplicationExtensions
         builder.Services.AddScoped<ITimeProvider, LocalTimeProvider>();
         builder.Services.AddScoped<IMediaManager, LocalFileSystemMediaManager>();
         builder.Services.AddScoped<IBlogRepository, BlogRepository>();
-        builder.Services.AddScoped<IDataSeeder, DataSeeder>();
+        builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 
         return builder;
     }

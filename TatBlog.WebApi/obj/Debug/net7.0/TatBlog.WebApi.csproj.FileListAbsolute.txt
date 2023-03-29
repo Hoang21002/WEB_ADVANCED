@@ -172,3 +172,8 @@ D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\obj\Debug\net7.0\refint\TatBlog.WebApi.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\obj\Debug\net7.0\TatBlog.WebApi.pdb
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\obj\Debug\net7.0\TatBlog.WebApi.genruntimeconfig.cache
 D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\obj\Debug\net7.0\ref\TatBlog.WebApi.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\System.CodeDom.dll

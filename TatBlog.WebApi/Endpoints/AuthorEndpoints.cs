@@ -7,7 +7,6 @@ using TatBlog.Core.DTO;
 using TatBlog.Core.Entities;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Media;
-using TatBlog.WebApi.Extensions;
 using TatBlog.WebApi.Filters;
 using TatBlog.WebApi.Models;
 
