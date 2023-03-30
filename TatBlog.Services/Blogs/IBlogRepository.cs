@@ -22,8 +22,8 @@ public interface IBlogRepository
 
     Task IncreaseViewCountAsync(int postId,
         CancellationToken cancellationToken = default);
-    Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false,
-        CancellationToken cancellationToken = default);
+/*    Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false,
+        CancellationToken cancellationToken = default);*/
 
     //Task<Author> GetAuthorByIdAsync(int authorId);
 

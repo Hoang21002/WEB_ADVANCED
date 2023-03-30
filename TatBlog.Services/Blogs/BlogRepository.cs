@@ -186,7 +186,7 @@ public class BlogRepository : IBlogRepository
             p.SetProperty(x => x.ViewCount, x => x.ViewCount + 1), cancellationToken);
     }
 
-    public async Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false, CancellationToken cancellationToken = default)
+/*    public async Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false, CancellationToken cancellationToken = default)
     {
         IQueryable<Category> categories = _context.Set<Category>();
 
@@ -206,7 +206,7 @@ public class BlogRepository : IBlogRepository
                 PostCount = x.Posts.Count(p => p.Published)
             })
             .ToListAsync(cancellationToken);
-    }
+    }*/
 
     public async Task<IPagedList<TagItem>> GetPagedTagsAsync(IPagingParams pagingParams, CancellationToken cancellationToken = default)
     {

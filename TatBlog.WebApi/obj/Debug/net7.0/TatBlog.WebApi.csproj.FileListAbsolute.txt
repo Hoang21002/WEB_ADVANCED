@@ -177,3 +177,8 @@ D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\PhatTrienUngDungWebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\WebNC\WEB_ADVANCED\TatBlog.WebApi\bin\Debug\net7.0\System.CodeDom.dll
