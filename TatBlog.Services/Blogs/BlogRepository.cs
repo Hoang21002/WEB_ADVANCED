@@ -45,34 +45,34 @@ public class BlogRepository : IBlogRepository
         return await postsQuery.FirstOrDefaultAsync(cancellationToken);
     }
 
-    public async Task<Author> GetAuthorAsync(string slug, CancellationToken cancellationToken = default)
-    {
-        return await _context.Set<Author>()
-            .FirstOrDefaultAsync(a => a.UrlSlug == slug, cancellationToken);
-    }
+    //public async Task<Author> GetAuthorAsync(string slug, CancellationToken cancellationToken = default)
+    //{
+    //    return await _context.Set<Author>()
+    //        .FirstOrDefaultAsync(a => a.UrlSlug == slug, cancellationToken);
+    //}
 
-    public async Task<Author> GetAuthorByIdAsync(int authorId)
-    {
-        return await _context.Set<Author>().FindAsync(authorId);
-    }
+    //public async Task<Author> GetAuthorByIdAsync(int authorId)
+    //{
+    //    return await _context.Set<Author>().FindAsync(authorId);
+    //}
 
-    public async Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default)
-    {
-        return await _context.Set<Author>()
-            .OrderBy(a => a.FullName)
-            .Select(a => new AuthorItem()
-            {
-                Id = a.Id,
-                FullName = a.FullName,
-                Email = a.ToString(),
-                JoinedDate = a.JoinedDate,
-                ImageUrl = a.ImageUrl,
-                UrlSlug = a.UrlSlug,
-                Notes = a.Notes,
-                PostCount = a.Posts.Count(p => p.Published)
-            })
-            .ToListAsync(cancellationToken);
-    }
+    //public async Task<IList<AuthorItem>> GetAuthorsAsync(CancellationToken cancellationToken = default)
+    //{
+    //    return await _context.Set<Author>()
+    //        .OrderBy(a => a.FullName)
+    //        .Select(a => new AuthorItem()
+    //        {
+    //            Id = a.Id,
+    //            FullName = a.FullName,
+    //            Email = a.ToString(),
+    //            JoinedDate = a.JoinedDate,
+    //            ImageUrl = a.ImageUrl,
+    //            UrlSlug = a.UrlSlug,
+    //            Notes = a.Notes,
+    //            PostCount = a.Posts.Count(p => p.Published)
+    //        })
+    //        .ToListAsync(cancellationToken);
+    //}
 
     public async Task<Tag> GetTagAsync(
         string slug, CancellationToken cancellationToken = default)
@@ -186,7 +186,7 @@ public class BlogRepository : IBlogRepository
             p.SetProperty(x => x.ViewCount, x => x.ViewCount + 1), cancellationToken);
     }
 
-    public async Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false, CancellationToken cancellationToken = default)
+/*    public async Task<IList<CategoryItem>> GetCategoriesAsync(bool showOnMenu = false, CancellationToken cancellationToken = default)
     {
         IQueryable<Category> categories = _context.Set<Category>();
 
@@ -206,7 +206,7 @@ public class BlogRepository : IBlogRepository
                 PostCount = x.Posts.Count(p => p.Published)
             })
             .ToListAsync(cancellationToken);
-    }
+    }*/
 
     public async Task<IPagedList<TagItem>> GetPagedTagsAsync(IPagingParams pagingParams, CancellationToken cancellationToken = default)
     {

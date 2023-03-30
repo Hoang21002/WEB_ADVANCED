@@ -15,6 +15,8 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
     {   
         private readonly ILogger<PostsController> _logger;
         private readonly IBlogRepository _blogRepository;
+        private readonly IAuthorRepository _authorRepository;
+        private readonly ICategoryRepository _categoryRepository;
         private readonly IMediaManager _mediaManager;
         private readonly IMapper _mapper;
         
@@ -22,11 +24,15 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
         public PostsController(
             ILogger<PostsController> logger,
             IBlogRepository blogRepository,
+            IAuthorRepository authorRepository,
+            ICategoryRepository categoryRepository,
             IMediaManager mediaManager,
             IMapper mapper )
         {   
             _logger = logger;
             _blogRepository = blogRepository;
+            _authorRepository = authorRepository;
+            _categoryRepository = categoryRepository;
             _mediaManager = mediaManager;
             _mapper = mapper;
         }
@@ -53,8 +59,8 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
         private async Task PopulatePostFilterModelAsync(PostFilterModel model)
         {
-            var authors = await _blogRepository.GetAuthorsAsync();
-            var categories = await _blogRepository.GetCategoriesAsync();
+            var authors = await _authorRepository.GetAuthorsAsync();
+            var categories = await _categoryRepository.GetCategoriesAsync();
 
             model.AuthorList = authors.Select(a => new SelectListItem()
             {
@@ -86,8 +92,8 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
         private async Task PopulatePostEditModelAsync(PostEditModel model)
         {
-            var authors = await _blogRepository.GetAuthorsAsync();
-            var categories = await _blogRepository.GetCategoriesAsync();
+            var authors = await _authorRepository.GetAuthorsAsync();
+            var categories = await _categoryRepository.GetCategoriesAsync();
 
             model.AuthorList = authors.Select(a => new SelectListItem()
             {
