@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
+      "projectUniqueName": "D:\\Học WebSite\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
       "projectName": "TatBlog.Core",
-      "projectPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
+      "projectPath": "D:\\Học WebSite\\WEB_ADVANCED\\TatBlog.Core\\TatBlog.Core.csproj",
       "packagesPath": "C:\\Users\\Doan Dinh Hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\WebNC\\WEB_ADVANCED\\TatBlog.Core\\obj\\",
+      "outputPath": "D:\\Học WebSite\\WEB_ADVANCED\\TatBlog.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Doan Dinh Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",

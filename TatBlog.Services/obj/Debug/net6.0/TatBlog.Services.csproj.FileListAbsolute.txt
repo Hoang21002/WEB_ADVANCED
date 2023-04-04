@@ -32,3 +32,20 @@ D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
 D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
 D:\WebNC\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.deps.json
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Services.pdb
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Core.pdb
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\bin\Debug\net6.0\TatBlog.Data.pdb
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.AssemblyReference.cache
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfoInputs.cache
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.AssemblyInfo.cs
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CoreCompileInputs.cache
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.csproj.CopyComplete
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\refint\TatBlog.Services.dll
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\TatBlog.Services.pdb
+D:\Học WebSite\WEB_ADVANCED\TatBlog.Services\obj\Debug\net6.0\ref\TatBlog.Services.dll
