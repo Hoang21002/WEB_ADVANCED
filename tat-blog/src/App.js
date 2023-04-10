@@ -19,32 +19,46 @@ import  {
 
 function App() {
   return (
-    <div>
+    // <div>
       <Router>
-        <Navbar/>
-        <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-9'>
-              <Routes>
-                <Route path='/' element={<Layout/>}>
-                  <Route path='/' element={<Index/>}/>
-                  <Route path='blog' element={<Index/>}/>
-                  <Route path='/blog/Contact' element={<Contact/>}/>
-                  <Route path='/blog/About' element={<About/>}/>
-                  <Route path='/blog/RSS' element={<RSS/>}/>
-                </Route>
-              </Routes>
-            </div>
-            <div className='col-3 border-start'>
-              <Sidebar/>  
-            </div>
-          </div>
-        </div>
+        <Routes>
+          <Route path='/' element={<Layout/>}>
+            <Route path='/' element={<Index/>}/>
+            <Route path='blog' element={<Index/>}/>
+            <Route path='blog/Contact' element={<Contact />}/>
+            <Route path='blog/About' element={<About />}/>
+            <Route path='blog/RSS' element={<RSS/>}/>           
+          </Route>
+        </Routes>
         <Footer/>
       </Router>
-    </div>
+    /* </div> */
   );
 }
 
 
 export default App;
+
+
+
+
+// Cập nhật lại code ở trang 3 lab 6
+{/* <Navbar/>
+<div className='container-fluid'>
+  <div className='row'>
+    <div className='col-9'>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route path='/' element={<Index/>}/>
+          <Route path='blog' element={<Index/>}/>
+          <Route path='/blog/Contact' element={<Contact/>}/>
+          <Route path='/blog/About' element={<About/>}/>
+          <Route path='/blog/RSS' element={<RSS/>}/>
+        </Route>
+      </Routes>
+    </div>
+    <div className='col-3 border-start'>
+      <Sidebar/>  
+    </div>
+  </div>
+</div> */}
